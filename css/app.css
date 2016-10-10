@@ -1,0 +1,13 @@
+.entry {
+  cursor: pointer;
+  margin: 0;
+}
+
+.entryBody {
+  display: none
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
