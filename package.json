@@ -1,0 +1,24 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "journal practice",
+  "main": "index.html",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laurakrouse94/journal.git, https://github.com/VanessaSharma/journal_javascript.git"
+  },
+  "keywords": [
+    "journal",
+    "practice"
+  ],
+  "author": "laura and vanessa",
+  "license": "ISC"
+}
