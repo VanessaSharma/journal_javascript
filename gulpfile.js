@@ -20,6 +20,12 @@ var lib = require('bower-files')({
   }
 });
 
+gulp.task("concatScripts", function() {
+  gulp.src(['js/scripts.js', 'js/jquery-3.1.1.js', 'js/calculator-interface.js'])
+  .pipe(concat("js/app.js"))
+  .pipe(gulp.dest("js"));
+});
+
 gulp.task('jsBrowserify', ['concatInterface'], function() {
   return browserify({ entries: ['./tmp/allConcat.js'] })
     .bundle()
@@ -105,4 +111,3 @@ gulp.task('jsBuild', ['jsBrowserify', 'jshint'], function() {
 gulp.task('cssBuild', ['bower', 'concatCSS'], function() {
   browserSync.reload();
 });
-Contact GitHub API Training Shop Blog About

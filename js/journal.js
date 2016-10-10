@@ -2,7 +2,9 @@ function Entry(title, body) {
   this.title = title;
   this.body = body;
   this.subTime = moment();
-}
+};
+
+// module.exports = Entry;
 
 Entry.prototype.countVowels = function() {
   return (this.body.match(/[aeiou]/gi) || []).length;
@@ -25,5 +27,4 @@ Entry.prototype.getTeaser = function() {
   }
   return output;
 };
-
 exports.entryModule = Entry;

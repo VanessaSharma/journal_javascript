@@ -2,6 +2,7 @@ var Entry = require('./../js/journal.js').entryModule;
 var entries = [];
 
 
+
 $(document).ready(function() {
 
 $('#journal-form').submit(function(event) {
@@ -26,6 +27,3 @@ $('#journal-form').submit(function(event) {
     });
   });
 });
-    )
-  }
-}
