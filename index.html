@@ -6,22 +6,23 @@
     <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
-    <title>Journal</title>
+    <title>Write yo emotions</title>
   </head>
   <body>
     <div class="container">
-      <h1>Journal</h1>
+      <img src="journal.jpg" style="border:1px solid black;max-width:100%;" alt="hipster journal">
+      <h1>Write yo emotions</h1>
       <h3 id="time"></h3>
       <form id="journal-form">
         <div class="form-group">
           <label for="title">Title:</label>
-          <input id="title" class="form-control" type="text" placeholder="Title" required>
+          <input id="title" class="form-control" type="text" placeholder="Title" style="width: 300px;" required>
         </div>
         <div class="form-group">
           <label for="body">Body:</label>
-          <textarea id="body" class="form-control" placeholder="Body" rows="5" required></textarea>
+          <textarea id="body" class="form-control" placeholder="Body" rows="5" style="width: 300px; height: 500px;" required></textarea>
         </div>
-        <button class="btn btn-success" type="submit">Submit</button>
+        <button type="button" class="btn btn-danger">Submit</button>
       </form>
       <ul id="entries"></ul>
     </div>
