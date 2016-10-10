@@ -8,6 +8,7 @@
     "gulp": "^3.9.1"
   },
   "devDependencies": {
+    "bower": "^1.7.9",
     "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",

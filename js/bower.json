@@ -1,0 +1,19 @@
+{
+  "name": "journal",
+  "description": "A simple blogging app",
+  "main": "index.html",
+  "license": "ISC",
+  "homepage": "https://github.com/laurakrouse94/journal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}
